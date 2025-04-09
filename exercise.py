@@ -1,6 +1,5 @@
 def calcular_imc(peso, altura) :
 # peso em kg e altura em cm
-    altura /=100
     
     imc = peso/(altura*altura)
     print(imc)
